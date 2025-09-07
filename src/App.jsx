@@ -1,9 +1,6 @@
 import styled from "styled-components"
+import GlobalStyles from './styles/GlobalStyles'
 
-const H1 = styled.h1`
-  font-size: 30px;
-  font-weight: 600;
-  `
 const Button = styled.button`
   font-size: 1.4rem;
   padding: 1.2rem 1.6rem;
@@ -32,6 +29,7 @@ function App() {
 
   return (
     <>
+      <GlobalStyles />
       <StyledApp>
         <H1>The Wild Oasis</H1>
 
