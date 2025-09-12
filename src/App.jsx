@@ -1,17 +1,7 @@
 import styled from "styled-components"
 import GlobalStyles from './styles/GlobalStyles'
-
-const Button = styled.button`
-  font-size: 1.4rem;
-  padding: 1.2rem 1.6rem;
-  font-weight: 500;
-  border: none;
-  background-color: purple;
-  color: white;
-  border-radius: 7px;
-  margin: 20px;
-  cursor: pointer;
-`
+import Button from "./ui/Button"
+import H1 from './ui/Heading'
 
 const Input = styled.input`
   border: 1px solid #ddd;
