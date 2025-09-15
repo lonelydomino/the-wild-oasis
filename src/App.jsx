@@ -13,9 +13,10 @@ function App() {
   return (
     <>
       <GlobalStyles />
+      
 
       <BrowserRouter>
-      
+
         <Routes>
           <Route index element={<Navigate replace to="dashboard" />} />
           <Route path="dashboard" element={<Dashboard />} />
